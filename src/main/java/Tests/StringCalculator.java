@@ -1,3 +1,5 @@
+package Tests;
+
 import java.io.CharConversionException;
 import java.util.ArrayList;
 import java.util.List;
