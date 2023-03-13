@@ -32,12 +32,12 @@ public class StringCalculatorTests {
     }
     @Test
     void threeNumbers() throws Exception{
-        assertEquals(1204, calculator.retNumber("1000,200,4"));
+        assertEquals(304, calculator.retNumber("100,200,4"));
         assertEquals(120, calculator.retNumber("100\n20"));
     }
     @Test
     void delimiterBeginning() throws Exception{
-        assertEquals(1400, calculator.retNumber("#1200,200"));
+        assertEquals(400, calculator.retNumber("#200,200"));
     }
     @Test
     void nonThousands() throws Exception{

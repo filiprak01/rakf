@@ -35,7 +35,9 @@ public class StringCalculator {
         int sum = 0;
         for (Integer integer: numbers
              ) {
+            if(integer < 1000) {
                 sum += integer;
+            }
         }
         return sum;
     }
